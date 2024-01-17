@@ -1,20 +1,21 @@
 {
   "name": "@dwol/layer-test1",
   "type": "module",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxt dev .playground",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
     "lint": "eslint .",
-    "postinstall": "nuxt prepare .playground"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
     "eslint": "^8.28.0",
     "nuxt": "^3.9.1",
+    "ora": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {

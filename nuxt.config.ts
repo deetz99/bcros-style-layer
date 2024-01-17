@@ -20,10 +20,21 @@ export default defineNuxtConfig({
   },
   alias: {
     BCGovFonts: join(currentDir, "./public/fonts/BCSans"),
-    BCGovLogoSmall: join(currentDir, "./public/BCGovLogo/gov_bc_logo_vert.png"),
-    BCGovLogoLarge: join(
+    BCGovLogoSmEn: join(
       currentDir,
-      "./public/BCGovLogo/gov_bc_logo_horiz.png"
+      "./public/BCGovLogo/gov_bc_logo_vert_en.png"
+    ),
+    BCGovLogoSmFr: join(
+      currentDir,
+      "./public/BCGovLogo/gov_bc_logo_vert_fr.png"
+    ),
+    BCGovLogoLgEn: join(
+      currentDir,
+      "./public/BCGovLogo/gov_bc_logo_horiz_en.png"
+    ),
+    BCGovLogoLgFr: join(
+      currentDir,
+      "./public/BCGovLogo/gov_bc_logo_horiz_fr.png"
     ),
   },
 });

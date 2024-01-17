@@ -1,9 +1,9 @@
-<script setup lang="ts">
-const { myLayer, ui } = useAppConfig();
-</script>
 <template>
-  test
-  <pre> {{ myLayer }}</pre>
-  <img src="/logos/gov_bc_logo_horiz.png" />
-  <img src="BCGovLogoSmall" />
+  <div class="bg-bcGovColor-header">
+    test
+    <img src="BCGovLogoLgEn" />
+    <img src="BCGovLogoLgFr" />
+    <img src="BCGovLogoSmEn" />
+    <img src="BCGovLogoSmFr" />
+  </div>
 </template>
