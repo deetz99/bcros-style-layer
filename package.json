@@ -1,7 +1,7 @@
 {
   "name": "@dwol/layer-test1",
   "type": "module",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxt dev",
