@@ -1,9 +1,6 @@
 <template>
-  <div class="bg-bcGovColor-header">
+  <div class="text-center">
     test
-    <img src="BCGovLogoLgEn" />
-    <img src="BCGovLogoLgFr" />
-    <img src="BCGovLogoSmEn" />
-    <img src="BCGovLogoSmFr" />
+    <h1>Hello from app.vue</h1>
   </div>
 </template>
