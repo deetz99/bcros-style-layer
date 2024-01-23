@@ -1,4 +1,8 @@
-export default {
+import type { Config } from 'tailwindcss'
+
+export type twConfig = Config 
+
+export const theme = {
   content: ["*.{html,ts,js,vue}"],
   theme: {
     extend: {

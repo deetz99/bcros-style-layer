@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     icons: ["mdi"],
   },
   alias: {
-    tailwindTheme: join(currentDir, "./assets/tw-theme.js"),
+    styleAssets: join(currentDir, "./assets"),
     BCGovFonts: join(currentDir, "./public/fonts/BCSans"),
     BCGovLogoSmEn: join(
       currentDir,
