@@ -19,7 +19,6 @@ export default defineNuxtConfig({
     icons: ["mdi"],
   },
   alias: {
-    styleAssets: join(currentDir, "./assets"),
     BCGovFonts: join(currentDir, "./public/fonts/BCSans"),
     BCGovLogoSmEn: join(
       currentDir,
