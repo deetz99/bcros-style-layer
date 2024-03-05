@@ -6,7 +6,7 @@ const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
+  ssr: true,
   css: [join(currentDir, "./assets/css/main.css")],
   modules: [
     "@nuxt/ui",
