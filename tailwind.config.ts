@@ -122,6 +122,7 @@ export default <Partial<Config>>{
           A700: "#FFAB9C",
         },
       },
+      // @ts-ignore: ignore theme as any
       typography: ({ theme }) => ({
         bcGov: {
           css: {

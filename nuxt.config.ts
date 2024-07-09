@@ -7,7 +7,13 @@ const currentDir = dirname(fileURLToPath(import.meta.url));
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
-  css: [join(currentDir, "./assets/css/main.css")],
+
+  future: {
+    compatibilityVersion: 4
+  },
+
+  css: [join(currentDir, "./app/assets/css/main.css")],
+
   modules: [
     "@nuxt/ui",
     "@nuxt/content",
@@ -15,9 +21,11 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@vueuse/nuxt",
   ],
+
   ui: {
     icons: ["mdi"],
   },
+
   alias: {
     BCGovFonts: join(currentDir, "./public/fonts/BCSans"),
     BCGovLogoSmEn: join(
@@ -37,4 +45,6 @@ export default defineNuxtConfig({
       "./public/BCGovLogo/gov_bc_logo_horiz_fr.png"
     ),
   },
+
+  compatibilityDate: "2024-07-09",
 });
