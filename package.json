@@ -1,7 +1,7 @@
 {
   "name": "@daxiom/sbc-nuxt-assets-layer",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxt dev",
