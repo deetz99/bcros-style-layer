@@ -1,6 +1,6 @@
 <template>
   <div class="text-center prose">
-    test again from pull request edited again
+    test
     <h1>Hello from app.vue</h1>
   </div>
 </template>
