@@ -1,4 +1,4 @@
-export default defineAppConfig({
+export default defineAppConfig({ 
   ui: {
     primary: "bcGovBlue",
     gray: "bcGovGray",
